@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0209969F213FFC54006BAA2F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0209969E213FFC54006BAA2F /* LoginViewController.swift */; };
+		020996A121400575006BAA2F /* LigandTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020996A021400575006BAA2F /* LigandTableViewCell.swift */; };
+		020996A321400827006BAA2F /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020996A221400827006BAA2F /* Tools.swift */; };
 		02A5ED9B213EE3A200476E7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A5ED9A213EE3A200476E7F /* AppDelegate.swift */; };
 		02A5ED9D213EE3A200476E7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A5ED9C213EE3A200476E7F /* ViewController.swift */; };
 		02A5EDA0213EE3A200476E7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02A5ED9E213EE3A200476E7F /* Main.storyboard */; };
 		02A5EDA2213EE3A200476E7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A5EDA1213EE3A200476E7F /* Assets.xcassets */; };
 		02A5EDA5213EE3A200476E7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02A5EDA3213EE3A200476E7F /* LaunchScreen.storyboard */; };
-		02A5EDB0213EE3A200476E7F /* ProteinsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A5EDAF213EE3A200476E7F /* ProteinsTests.swift */; };
-		02A5EDBB213EE3A200476E7F /* ProteinsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A5EDBA213EE3A200476E7F /* ProteinsUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0209969E213FFC54006BAA2F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		020996A021400575006BAA2F /* LigandTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigandTableViewCell.swift; sourceTree = "<group>"; };
+		020996A221400827006BAA2F /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		02A5ED97213EE3A200476E7F /* Proteins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proteins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02A5ED9A213EE3A200476E7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02A5ED9C213EE3A200476E7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,11 +46,7 @@
 		02A5EDA4213EE3A200476E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02A5EDA6213EE3A200476E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A5EDAB213EE3A200476E7F /* ProteinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProteinsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		02A5EDAF213EE3A200476E7F /* ProteinsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinsTests.swift; sourceTree = "<group>"; };
-		02A5EDB1213EE3A200476E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A5EDB6213EE3A200476E7F /* ProteinsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProteinsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		02A5EDBA213EE3A200476E7F /* ProteinsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinsUITests.swift; sourceTree = "<group>"; };
-		02A5EDBC213EE3A200476E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				02A5ED99213EE3A200476E7F /* Proteins */,
-				02A5EDAE213EE3A200476E7F /* ProteinsTests */,
-				02A5EDB9213EE3A200476E7F /* ProteinsUITests */,
 				02A5ED98213EE3A200476E7F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,26 +101,11 @@
 				02A5EDA1213EE3A200476E7F /* Assets.xcassets */,
 				02A5EDA3213EE3A200476E7F /* LaunchScreen.storyboard */,
 				02A5EDA6213EE3A200476E7F /* Info.plist */,
+				0209969E213FFC54006BAA2F /* LoginViewController.swift */,
+				020996A021400575006BAA2F /* LigandTableViewCell.swift */,
+				020996A221400827006BAA2F /* Tools.swift */,
 			);
 			path = Proteins;
-			sourceTree = "<group>";
-		};
-		02A5EDAE213EE3A200476E7F /* ProteinsTests */ = {
-			isa = PBXGroup;
-			children = (
-				02A5EDAF213EE3A200476E7F /* ProteinsTests.swift */,
-				02A5EDB1213EE3A200476E7F /* Info.plist */,
-			);
-			path = ProteinsTests;
-			sourceTree = "<group>";
-		};
-		02A5EDB9213EE3A200476E7F /* ProteinsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				02A5EDBA213EE3A200476E7F /* ProteinsUITests.swift */,
-				02A5EDBC213EE3A200476E7F /* Info.plist */,
-			);
-			path = ProteinsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +242,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0209969F213FFC54006BAA2F /* LoginViewController.swift in Sources */,
 				02A5ED9D213EE3A200476E7F /* ViewController.swift in Sources */,
+				020996A121400575006BAA2F /* LigandTableViewCell.swift in Sources */,
 				02A5ED9B213EE3A200476E7F /* AppDelegate.swift in Sources */,
+				020996A321400827006BAA2F /* Tools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02A5EDB0213EE3A200476E7F /* ProteinsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02A5EDBB213EE3A200476E7F /* ProteinsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
