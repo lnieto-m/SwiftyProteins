@@ -10,13 +10,14 @@ import UIKit
 import LocalAuthentication
 
 class LoginViewController: UIViewController {
-
+    
     @IBOutlet weak var Log: UIButton!
     let authentificationContext = LAContext()
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let id = segue.identifier {
             if id == "LigandsTableSegue" {
+//                self.dismiss(animated: true, completion: nil)
                 print("Soon")
             }
         }
@@ -57,5 +58,4 @@ class LoginViewController: UIViewController {
             })
         print("hello")
     }
-    
 }
