@@ -32,6 +32,22 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+        if let bundlePath = Bundle.main.path(forResource: "ligands", ofType: "bundle"),
+            let bundle = Bundle(path: bundlePath) {
+            let filePath = bundle.url(forResource: "ligands", withExtension: "txt")
+            do {
+                let data = try String(contentsOf: filePath!)
+                print(data)
+            } catch {
+                print("not found")
+            }
+            //            print(bundle.isLoaded)
+//            bundle.load()
+//            print(bundle.isLoaded)
+        } else {
+            print("not found")
+        }
         
         filteredData =  LingandList.List
         // Do any additional setup after loading the view, typically from a nib.
