@@ -15,6 +15,7 @@
 		02A5EDA0213EE3A200476E7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02A5ED9E213EE3A200476E7F /* Main.storyboard */; };
 		02A5EDA2213EE3A200476E7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A5EDA1213EE3A200476E7F /* Assets.xcassets */; };
 		02A5EDA5213EE3A200476E7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02A5EDA3213EE3A200476E7F /* LaunchScreen.storyboard */; };
+		02FB85FA214144E300AE9E27 /* ligands.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 02FB85F9214144E300AE9E27 /* ligands.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		02A5EDA6213EE3A200476E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A5EDAB213EE3A200476E7F /* ProteinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProteinsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02A5EDB6213EE3A200476E7F /* ProteinsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProteinsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02FB85F9214144E300AE9E27 /* ligands.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ligands.bundle; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				0209969E213FFC54006BAA2F /* LoginViewController.swift */,
 				020996A021400575006BAA2F /* LigandTableViewCell.swift */,
 				020996A221400827006BAA2F /* Tools.swift */,
+				02FB85F9214144E300AE9E27 /* ligands.bundle */,
 			);
 			path = Proteins;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02FB85FA214144E300AE9E27 /* ligands.bundle in Resources */,
 				02A5EDA5213EE3A200476E7F /* LaunchScreen.storyboard in Resources */,
 				02A5EDA2213EE3A200476E7F /* Assets.xcassets in Resources */,
 				02A5EDA0213EE3A200476E7F /* Main.storyboard in Resources */,
